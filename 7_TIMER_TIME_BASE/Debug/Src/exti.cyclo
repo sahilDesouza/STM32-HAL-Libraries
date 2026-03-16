@@ -1,0 +1,3 @@
+../Src/exti.c:21:6:gpio_pc13_interrupt_callback_init	1
+../Src/exti.c:41:6:HAL_GPIO_EXTI_Callback	1
+../Src/exti.c:51:6:EXTI15_10_IRQHandler	1

@@ -1,0 +1,9 @@
+../Src/main.c:64:5:main	48	static
+../Src/main.c:93:6:s_main_usart1_init	24	static
+../Src/main.c:124:6:s_main_usart2_init	24	static
+../Src/main.c:160:6:USART1_IRQHandler	8	static
+../Src/main.c:165:6:USART2_IRQHandler	8	static
+../Src/main.c:172:6:HAL_UART_TxCpltCallback	16	static
+../Src/main.c:198:6:HAL_UART_RxCpltCallback	16	static
+../Src/main.c:222:6:SysTick_Handler	8	static
+../Src/main.c:227:5:__io_putchar	16	static

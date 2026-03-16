@@ -1,0 +1,3 @@
+../Src/exti.c:21:6:gpio_pc13_interrupt_callback_init	32	static
+../Src/exti.c:41:6:HAL_GPIO_EXTI_Callback	16	static
+../Src/exti.c:51:6:EXTI15_10_IRQHandler	8	static
