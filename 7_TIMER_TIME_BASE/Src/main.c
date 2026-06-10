@@ -20,6 +20,8 @@
 #include "stm32f4xx_hal.h"
 #include "uart.h"
 #include "adc.h"
+#include "tim.h"
+#include "led.h"
 
 
 
@@ -29,7 +31,10 @@ GPIO_InitTypeDef GPIO_init;
 int main(void)
 {
 	HAL_Init();
-
+	//gpio_pa5_led_init();
+	timx_base_init();
+	usart_init(&GPIO_init, &UART2_handle_init);	
+	
 	while (1)
 	{
 		;

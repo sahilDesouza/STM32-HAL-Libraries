@@ -30,7 +30,7 @@ Src/main.o: ../Src/main.c \
  /home/sahil/STMProjects/Workspace/7_TIMER_TIME_BASE/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  /home/sahil/STMProjects/Workspace/7_TIMER_TIME_BASE/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  /home/sahil/STMProjects/Workspace/7_TIMER_TIME_BASE/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h \
- ../Inc/uart.h ../Inc/adc.h
+ ../Inc/uart.h ../Inc/adc.h ../Inc/tim.h ../Inc/led.h
 /home/sahil/STMProjects/Workspace/7_TIMER_TIME_BASE/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Inc/stm32f4xx_hal_conf.h:
 /home/sahil/STMProjects/Workspace/7_TIMER_TIME_BASE/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -64,3 +64,5 @@ Src/main.o: ../Src/main.c \
 /home/sahil/STMProjects/Workspace/7_TIMER_TIME_BASE/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h:
 ../Inc/uart.h:
 ../Inc/adc.h:
+../Inc/tim.h:
+../Inc/led.h:

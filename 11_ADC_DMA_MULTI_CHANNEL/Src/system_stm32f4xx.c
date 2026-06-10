@@ -1,0 +1,12 @@
+
+
+
+#include <stdint.h>
+
+
+
+
+uint32_t systemCoreClock = 16000000;
+
+const uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0 , 1, 2 , 3, 4, 5, 6, 7, 8, 9};
+const uint8_t APBPrescTable[8] = {0, 0, 0, 0, 1, 2, 3, 4};

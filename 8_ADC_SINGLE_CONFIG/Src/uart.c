@@ -35,7 +35,8 @@ int __io_putchar(int ch)
 
 void usart_init(GPIO_InitTypeDef * GPIO_init, UART_HandleTypeDef * UART2_handle_init)
 {
-	__HAL_RCC_GPIOA_IS_CLK_ENABLED();
+	//__HAL_RCC_GPIOA_IS_CLK_ENABLED();
+	__HAL_RCC_GPIOA_CLK_ENABLE();
 	__HAL_RCC_USART2_CLK_ENABLE();
 
 	GPIO_init->Mode = GPIO_MODE_AF_PP;

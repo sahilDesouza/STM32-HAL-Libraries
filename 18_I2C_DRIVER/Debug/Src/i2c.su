@@ -1,0 +1,11 @@
+../Src/i2c.c:115:6:i2c_init	40	static
+../Src/i2c.c:143:6:adxl345_write	32	static
+../Src/i2c.c:151:6:adxl345_read_values	32	static
+../Src/i2c.c:157:6:adxl345_read_address	32	static
+../Src/i2c.c:162:6:adxl345_init	8	static
+../Src/i2c.c:178:6:ssd1306_init	8	static
+../Src/i2c.c:225:6:ssd1306_write	32	static
+../Src/i2c.c:233:6:ssd1306_clear	16	static
+../Src/i2c.c:248:6:ssd1306_char	24	static
+../Src/i2c.c:265:6:ssd1306_set_string	16	static
+../Src/i2c.c:273:6:ssd1306_setpos	16	static
